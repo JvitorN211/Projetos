@@ -1,0 +1,51 @@
+* {
+    background-color: #000;
+    color: #fff;
+    font-family: poppins;
+    cursor: default;
+}
+
+.container {
+    padding: 0 auto;
+    margin: 100px;
+    text-align: center;
+}
+
+.texto {
+    text-align: justify;
+}
+
+#arrow i {
+    text-align: center;
+    cursor: pointer;
+}
+
+.active {
+    display: block !important;
+}
+
+.disactive {
+    display: none !important;
+}
+
+#key {
+    text-align: center;
+}
+
+#code-key {
+    color: #000;
+}
+
+#code-key:hover {
+    color: #fff;
+}
+
+#help {
+    color: #000;
+    text-decoration: none;
+}
+
+#help:hover {
+    cursor: pointer;
+    color: #fff;
+}

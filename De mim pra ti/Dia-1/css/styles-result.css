@@ -1,0 +1,12 @@
+* {
+    background-color: #000;
+    color: #fff;
+    font-family: poppins;
+    cursor: default;
+}
+
+.container {
+    padding: 0 auto;
+    margin: 100px;
+    text-align: center;
+}

@@ -1,0 +1,61 @@
+* {
+    background-color: #000;
+    color: #fff;
+    font-family: poppins;
+    cursor: default;
+}
+
+header a i:hover{
+    cursor: pointer;
+}
+
+.container {
+    padding: 0 auto;
+    margin: 100px;
+    text-align: center;
+}
+
+.texto {
+    text-align: center;
+}
+
+.texto :last-child {
+    margin-right: 55px;
+    text-align: right;
+    font-size: small;
+}
+
+.next-page {
+    margin-right: 55px;
+    text-align: right;
+}
+
+.next-page a i {
+    cursor: pointer !important;
+}
+
+#socorro {
+    color: #000;
+    text-decoration: none;
+}
+
+#socorro:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.div-key-resp {
+    padding: 0 auto;
+    text-align: right;
+}
+
+#key-resp {
+    padding-right: 150px;
+    color: #000;
+    text-decoration: none;
+}
+
+#key-resp:hover {
+    color: #fff;
+    cursor: pointer;
+}

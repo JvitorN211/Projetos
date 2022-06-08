@@ -1,0 +1,20 @@
+* {
+    background-color: #000;
+    color: #fff;
+    font-family: poppins;
+    cursor: default;
+}
+
+.container {
+    padding: 0 auto;
+    margin: 100px;
+    text-align: center;
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.container a h1:hover {
+    cursor: pointer;
+}
