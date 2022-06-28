@@ -5,7 +5,7 @@ import pyperclip as pc
 layout = [
     [sg.Text('Escolha um número de caracteres para sua senha:')],
     [sg.Input(key = '-INPUT-'), sg.Button('Gerar', key = '-GERAR-')],
-    [sg.Text('Senha', key = '-SENHA-'), sg.Button('Copiar', key = '-COPIAR-'), sg.Text('status', key = '-STATUS-')]
+    [sg.Text('Senha:', key = '-SENHA-'), sg.Button('Copiar', key = '-COPIAR-'), sg.Text('status', key = '-STATUS-')]
 ]
 
 window = sg.Window('Gerador de Senhas', layout)
@@ -29,7 +29,8 @@ while True:
         if input_value.isnumeric():
             length_for_pass = int(input_value)
             password = "".join(random.sample(Use_for, length_for_pass))
-            window['-SENHA-'].update("Sua senha gerada por Python é: " + password)
+            window['-SENHA-'].update("Senha: " + password)
+            window['-STATUS-'].update("status")
         else:
             window['-STATUS-'].update("Insira um valor numérico!")
         
