@@ -1,0 +1,84 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Agenda___IATEC</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Views\NovaPasta1\**" />
+    <Content Remove="Views\NovaPasta1\**" />
+    <EmbeddedResource Remove="Views\NovaPasta1\**" />
+    <None Remove="Views\NovaPasta1\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\HomeController1.cs" />
+    <Compile Remove="Models\HomeModel.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\css\dataTables.bootstrap.css" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\css\dataTables.bootstrap.min.css" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\css\dataTables.bootstrap4.css" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\css\dataTables.bootstrap4.min.css" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\css\dataTables.bootstrap5.css" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\css\dataTables.bootstrap5.min.css" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\css\dataTables.bulma.css" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\css\dataTables.bulma.min.css" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\css\dataTables.dataTables.css" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\css\dataTables.dataTables.min.css" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\css\dataTables.foundation.css" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\css\dataTables.foundation.min.css" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\css\dataTables.jqueryui.css" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\css\dataTables.jqueryui.min.css" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\css\dataTables.semanticui.css" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\css\dataTables.semanticui.min.css" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\css\jquery.dataTables.css" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\css\jquery.dataTables.min.css" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\images\sort_asc.png" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\images\sort_asc_disabled.png" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\images\sort_both.png" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\images\sort_desc.png" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\images\sort_desc_disabled.png" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\js\dataTables.bootstrap.js" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\js\dataTables.bootstrap.min.js" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\js\dataTables.bootstrap4.js" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\js\dataTables.bootstrap4.min.js" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\js\dataTables.bootstrap5.js" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\js\dataTables.bootstrap5.min.js" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\js\dataTables.bulma.js" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\js\dataTables.bulma.min.js" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\js\dataTables.dataTables.js" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\js\dataTables.dataTables.min.js" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\js\dataTables.foundation.js" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\js\dataTables.foundation.min.js" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\js\dataTables.jqueryui.js" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\js\dataTables.jqueryui.min.js" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\js\dataTables.semanticui.js" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\js\dataTables.semanticui.min.js" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\js\jquery.dataTables.js" />
+    <None Include="wwwroot\lib\DataTables\DataTables-1.12.1\js\jquery.dataTables.min.js" />
+    <None Include="wwwroot\lib\DataTables\datatables.css" />
+    <None Include="wwwroot\lib\DataTables\datatables.js" />
+    <None Include="wwwroot\lib\DataTables\datatables.min.css" />
+    <None Include="wwwroot\lib\DataTables\datatables.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>

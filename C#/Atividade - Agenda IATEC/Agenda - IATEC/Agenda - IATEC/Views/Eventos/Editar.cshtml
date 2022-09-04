@@ -1,0 +1,59 @@
+﻿@model EventosModel
+@{
+    ViewData["Title"] = "Edição de Eventos";
+}
+
+<div class="text-center">
+    <h1 class="display-6">Edição de Eventos</h1>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+</div>
+
+<form asp-controller="Eventos" asp-action="Alterar" method="post">
+    <div class="box-edit">
+        <div class="card-edit">
+            <h1>EDITAR</h1>
+            <input type="hidden" asp-for="Id" />
+            <div class="textfield">
+                <label for="nome">Nome</label>
+                <input type="text" asp-for="Nome" placeholder="Digite o nome do evento">
+                @Html.ValidationMessageFor(x => x.Nome)
+            </div>
+            <div class="textfield">
+                <label for="descricao">Descrição</label>
+                <input type="text" asp-for="Descricao" placeholder="Digite uma breve descrição do evento">
+                @Html.ValidationMessageFor(x => x.Descricao)
+            </div>
+            <div class="textfield">
+                <label for="data">Data</label>
+                <input type="date" asp-for="Data" placeholder="Digite a data do evento">
+                @Html.ValidationMessageFor(x => x.Data)
+            </div>
+            <div class="textfield">
+                <label for="horario">Horário</label>
+                <input type="time" asp-for="Horario" placeholder="Digite o horário do evento">
+                @Html.ValidationMessageFor(x => x.Horario)
+            </div>
+            <div class="textfield">
+                <label for="local">Local</label>
+                <input type="text" asp-for="Local" placeholder="Digite onde será o evento">
+                @Html.ValidationMessageFor(x => x.Local)
+            </div>
+            <div class="textfield">
+                <label for="participantes">Participantes</label>
+                <input type="text" asp-for="Participantes" placeholder="Digite o nome de quem irá participar">
+                @Html.ValidationMessageFor(x => x.Participantes)
+            </div>
+            <div class="textfield">
+                <label for="tipo">Escolha o tipo de Evento</label>
+                <select asp-for="Tipo">
+                    <option value="1" selected>Privado</option>
+                    <option value="2">Público</option>
+                </select>
+                @Html.ValidationMessageFor(x => x.Tipo)
+            </div>
+            <button type="submit" class="btn-cancel">Confirmar</button>
+            <button class="btn-confirm" asp-controller="Home" asp-action="Index">Cancelar</button>
+        </div>
+    </div>
+</form>
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />

@@ -1,0 +1,89 @@
+F:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\appsettings.Development.json
+F:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\appsettings.json
+F:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\Agenda - IATEC.staticwebassets.runtime.json
+F:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\Agenda - IATEC.exe
+F:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\Agenda - IATEC.deps.json
+F:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\Agenda - IATEC.runtimeconfig.json
+F:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\Agenda - IATEC.dll
+F:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\Agenda - IATEC.pdb
+F:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\Agenda - IATEC.csproj.AssemblyReference.cache
+F:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\Agenda - IATEC.GeneratedMSBuildEditorConfig.editorconfig
+F:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\Agenda - IATEC.AssemblyInfoInputs.cache
+F:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\Agenda - IATEC.AssemblyInfo.cs
+F:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\Agenda - IATEC.csproj.CoreCompileInputs.cache
+F:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\Agenda - IATEC.MvcApplicationPartsAssemblyInfo.cache
+F:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\Agenda - IATEC.RazorAssemblyInfo.cache
+F:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\Agenda - IATEC.RazorAssemblyInfo.cs
+F:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\staticwebassets.build.json
+F:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\staticwebassets.development.json
+F:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+F:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\scopedcss\bundle\Agenda - IATEC.styles.css
+F:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\scopedcss\projectbundle\Agenda - IATEC.bundle.scp.css
+F:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\Agenda - IATEC.dll
+F:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\refint\Agenda - IATEC.dll
+F:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\Agenda - IATEC.pdb
+F:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\Agenda - IATEC.genruntimeconfig.cache
+F:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\ref\Agenda - IATEC.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\appsettings.Development.json
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\appsettings.json
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\Agenda - IATEC.staticwebassets.runtime.json
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\Agenda - IATEC.exe
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\Agenda - IATEC.deps.json
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\Agenda - IATEC.runtimeconfig.json
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\Agenda - IATEC.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\Agenda - IATEC.pdb
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\Humanizer.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\System.Drawing.Common.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\System.Runtime.Caching.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\System.Security.Permissions.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\System.Windows.Extensions.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\Agenda - IATEC.csproj.AssemblyReference.cache
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\Agenda - IATEC.GeneratedMSBuildEditorConfig.editorconfig
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\Agenda - IATEC.AssemblyInfoInputs.cache
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\Agenda - IATEC.AssemblyInfo.cs
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\Agenda - IATEC.csproj.CoreCompileInputs.cache
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\Agenda - IATEC.MvcApplicationPartsAssemblyInfo.cache
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\Agenda - IATEC.RazorAssemblyInfo.cache
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\Agenda - IATEC.RazorAssemblyInfo.cs
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\staticwebassets.build.json
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\staticwebassets.development.json
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\scopedcss\bundle\Agenda - IATEC.styles.css
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\scopedcss\projectbundle\Agenda - IATEC.bundle.scp.css
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\Agenda - IATEC.csproj.CopyComplete
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\Agenda - IATEC.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\refint\Agenda - IATEC.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\Agenda - IATEC.pdb
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\Agenda - IATEC.genruntimeconfig.cache
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\ref\Agenda - IATEC.dll
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\obj\Debug\net6.0\scopedcss\Views\Shared\_LayoutDeslogado.cshtml.rz.scp.css
+G:\Atividade - Agenda IATEC\Agenda - IATEC\Agenda - IATEC\bin\Debug\net6.0\Newtonsoft.Json.dll

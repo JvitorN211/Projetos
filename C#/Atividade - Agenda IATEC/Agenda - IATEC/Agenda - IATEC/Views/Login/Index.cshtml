@@ -1,0 +1,42 @@
+﻿@model LoginModel
+@{
+    Layout = "_LayoutDeslogado";
+    ViewData["title"] = "Login";
+}
+
+<!--Tela de Login-->
+
+<body class="body-login">
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Faça login<br>E divirta-se</h1>
+            <img src="~/img/timeline-animate.svg" class="left-login-image" alt="agenda animada">
+        </div>
+        <form asp-controller="Login" asp-action="Entrar" method="post">
+            <div class="right-login">
+                <div class="card-login">
+                    <h1>LOGIN</h1>
+                    @if(TempData["MensagemErro"] != null)
+                    {
+                        <br />
+                        <div class="alert alert-danger" role="alert">
+                        <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="Close">X</button>
+                        @TempData["MensagemErro"]
+                        </div>
+                    }
+                    <div class="textfield">
+                        <label for="login">Login</label>
+                        <input type="text" asp-for="Login" name="login" placeholder="Login">
+                        @Html.ValidationMessageFor(x => x.Login)
+                    </div>
+                    <div class="textfield">
+                        <label for="senha">Senha</label>
+                        <input type="password" asp-for="Senha" name="senha" placeholder="Senha">
+                        @Html.ValidationMessageFor(x => x.Senha)
+                    </div>
+                    <button type="submit" class="btn-login">Login</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>

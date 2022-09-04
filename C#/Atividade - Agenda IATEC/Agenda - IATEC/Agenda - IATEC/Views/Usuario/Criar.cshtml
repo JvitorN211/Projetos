@@ -1,0 +1,51 @@
+﻿@using Agenda___IATEC.Enums
+@model UsuarioModel
+@{
+    ViewData["Title"] = "Criação de Usuários";
+}
+
+<div class="text-center">
+    <h1 class="display-6">Cadastrar usuário</h1>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br />
+</div>
+
+
+<div class="box-edit">
+    <div class="card-edit">
+        <form class="card-form-edit" asp-controller="Usuario" asp-action="Criar" method="post">
+            <h1>CRIAR</h1>
+            <div class="textfield">
+                <label for="nome">Nome</label>
+                <input type="text" asp-for="Name" placeholder="Digite o nome do usuário">
+                @Html.ValidationMessageFor(x => x.Name)
+            </div>
+            <div class="textfield">
+                <label for="email">Email</label>
+                <input type="text" asp-for="Email" placeholder="Digite o email do usuário">
+                @Html.ValidationMessageFor(x => x.Email)
+            </div>
+            <div class="textfield">
+                <label for="login">Login</label>
+                <input type="text" asp-for="Login" placeholder="Digite o login do usuário">
+                @Html.ValidationMessageFor(x => x.Login)
+            </div>
+            <div class="textfield">
+                <label for="perfil">Escolha o tipo de Usuário</label>
+                <select asp-for="Perfil">
+                    <option value="" selected>Selecione</option>
+                    <option value="@PerfilEnum.Admin">Administrador</option>
+                    <option value="@PerfilEnum.Padrao">Padrão</option>
+                </select>
+                @Html.ValidationMessageFor(x => x.Perfil)
+            </div>
+            <div class="textfield">
+                <label for="senha">Senha</label>
+                <input type="password" asp-for="Senha" placeholder="Digite a senha do usuário">
+                @Html.ValidationMessageFor(x => x.Login)
+            </div>
+            <button type="submit" class="btn-cancel">Confirmar</button>
+        </form>
+        <button class="btn-confirm" asp-action="Index" asp-controller="Usuario">Cancelar</button>
+    </div>
+</div>
+<br /><br /><br /><br /><br /><br /><br /><br />

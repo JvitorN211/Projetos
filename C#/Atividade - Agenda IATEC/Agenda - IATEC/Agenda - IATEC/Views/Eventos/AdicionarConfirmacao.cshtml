@@ -1,0 +1,21 @@
+﻿@model EventosModel
+@{
+    ViewData["Title"] = "Confirmação de Adição de evento";
+}
+
+<div class="text-center">
+    <h3>Tem certeza de que deseja Adicionar o evento (@Model.Nome)?</h3>
+    <br /><br /><br />
+    <form asp-controller="Eventos" asp-action="Alterar" method="post" id="form-event">
+        <input type="hidden" asp-for="Id" />
+        <input type="hidden" asp-for="Nome" />
+        <input type="hidden" asp-for="Descricao" />
+        <input type="hidden" asp-for="Data" />
+        <input type="hidden" asp-for="Horario" />
+        <input type="hidden" asp-for="Local" />
+        <input type="hidden" asp-for="Participantes" />
+        <input type="hidden" class="form-tipo" asp-for="Tipo">
+        <button role="button" class="add-btn" style="--clr:#ff1867" asp-controller="Eventos" asp-action="Index"><span class="add-span">Cancelar</span><i class="add-i"></i></button>
+        <button role="button" class="add-btn" id="change-type" style="--clr:#00ff88"><span class="add-span">Confirmar</span><i class="add-i"></i></button>
+    </form>
+</div>

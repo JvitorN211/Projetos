@@ -1,0 +1,71 @@
+﻿@model List<EventosModel>
+@{
+    ViewData["Title"] = "Visualização de Eventos";
+}
+
+<h1 class="display-6">Eventos Públicos</h1>
+<br />
+
+<div class="text-center">
+
+    @if(TempData["MensagemSucesso"] != null)
+    {
+       <div class="alert alert-success" role="alert">
+            <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="Close">X</button>
+            @TempData["MensagemSucesso"]
+        </div> 
+    }
+
+    @if(TempData["MensagemErro"] != null)
+    {
+       <div class="alert alert-danger" role="alert">
+            <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="Close">X</button>
+            @TempData["MensagemErro"]
+        </div>
+    }
+ 
+</div>
+
+<table class="table" id="table-public">
+  <thead>
+    <tr class="table-title">
+      <th scope="col">#</th>
+      <th scope="col">Nome</th>
+      <th scope="col">Descrição</th>
+      <th scope="col">Data</th>
+      <th scope="col">Horário</th>
+      <th scope="col">Local</th>
+      <th scope="col">Participantes</th>
+      <th scope="col">Ação</th>
+    </tr>
+  </thead>
+  <tbody>
+    @if(Model != null && Model.Any())
+        {
+            foreach (EventosModel evento in Model)
+            {
+                if (evento.Tipo == "2") 
+                {
+                    <tr>
+                        <th scope="row">@evento.Id</th>
+                        <td>@evento.Nome</td>
+                        <td>@evento.Descricao</td>
+                        <td>@evento.Data</td>
+                        <td>@evento.Horario</td>
+                        <td>@evento.Local</td>
+                        <td>@evento.Participantes</td>
+                        <td>
+                            <div class="btn-group btn-group-sm" role="group" aria-label="Small button group" >
+                                <a role="button" class="btn btn-outline-dark" id="btn-edit" asp-route-id="@evento.Id" asp-controller="Eventos" asp-action="AdicionarConfirmacao">Adicionar</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            }
+        }
+        else 
+        {
+            <tr class="odd"><td valign="top" colspan="5">Nenhum Evento encontrado.</td></tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,19 @@
+﻿@model UsuarioModel
+
+<div class="nav-cont">
+    <a class="logo" asp-area="" asp-controller="Home" asp-action="Index">Olá, @Model.Name</a>
+    <nav>
+        <ul class="nav_links">
+            <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+            <li><a asp-controller="Eventos" asp-action="Criar">Criar</a></li>
+            <li><a asp-controller="Eventos" asp-action="Index">Públicos</a></li>
+            
+            @if (Model.Perfil == Agenda___IATEC.Enums.PerfilEnum.Admin)
+            {
+                <li><a asp-controller="Usuario" asp-action="Index">Usuários</a></li>
+            }
+
+            <li><a asp-controller="Login" asp-action="Sair">Sair</a></li>
+        </ul>
+    </nav>
+</div>
